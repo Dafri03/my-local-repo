@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dylan Afrifa-Akwamoah | DriveNow Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Dylan Afrifa-Akwamoah home">
+      <span>DA</span>
+      Dylan Afrifa-Akwamoah
+    </a>
+    <nav aria-label="Case study navigation">
+      <a href="#problem">Problem</a>
+      <a href="#process">Process</a>
+      <a href="#testing">Testing</a>
+      <a href="#final">Final</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">UX/UI portfolio case study</p>
+        <h1>Redesigning Ling's Cars into a clearer rental experience.</h1>
+        <p class="hero-text">
+          I documented the redesign process behind DriveNow, a student capstone project that turns the loud, overwhelming experience of Ling's Cars into a focused car rental flow.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="https://zmogaka.github.io/DriveNow/" target="_blank" rel="noopener">View live DriveNow site</a>
+          <a class="secondary-button" href="#case-study">Read the case study</a>
+        </div>
+      </div>
+
+      <div class="hero-device" aria-label="Preview of the redesigned DriveNow interface">
+        <div class="device-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="device-search">Enter Location...</div>
+        <div class="device-grid">
+          <article>
+            <img src="https://zmogaka.github.io/DriveNow/images/3acf2c99f99354d7e898cce7eb17a19293761b6e.png" alt="Toyota Supra in the DriveNow redesign">
+            <strong>Toyota Supra</strong>
+            <span>$45/day</span>
+          </article>
+          <article>
+            <img src="https://zmogaka.github.io/DriveNow/images/949071b429e9a21ffe97f024915ea145618aae77.png" alt="Tesla Model 3 in the DriveNow redesign">
+            <strong>Tesla Model 3</strong>
+            <span>$75/day</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview" aria-label="Project overview">
+      <article>
+        <span>Project</span>
+        <strong>DriveNow website redesign</strong>
+      </article>
+      <article>
+        <span>My role</span>
+        <strong>UX critique, UI design, front-end implementation</strong>
+      </article>
+      <article>
+        <span>Team</span>
+        <strong>4-person capstone group</strong>
+      </article>
+      <article>
+        <span>Tools</span>
+        <strong>HTML, CSS, JavaScript, wireframes, peer testing</strong>
+      </article>
+    </section>
+
+    <section class="case-section" id="case-study">
+      <div class="section-heading" id="problem">
+        <p class="kicker">01 - Define the problem</p>
+        <h2>The site was memorable, but the rental task was hard to follow.</h2>
+      </div>
+      <div class="two-column">
+        <div class="section-copy">
+          <p>
+            Ling's Cars has a bold personality, but the experience makes users sort through competing colors, animations, promotions, and unclear calls to action before they can do the basic thing they came for: find a car and understand the deal.
+          </p>
+          <p>
+            Our redesign focused on first-time renters who need to compare cars quickly, see pricing clearly, and move into booking without feeling lost. The problem was not simply that the original website "needed a redesign." The deeper problem was that the interface competed with the user's decision-making.
+          </p>
+        </div>
+        <div class="issue-stack">
+          <article>
+            <strong>Visual overload</strong>
+            <p>Too many messages fought for attention at the same time.</p>
+          </article>
+          <article>
+            <strong>Unclear hierarchy</strong>
+            <p>Search, vehicle details, pricing, and booking were not prioritized clearly.</p>
+          </article>
+          <article>
+            <strong>Low confidence</strong>
+            <p>Users could not easily scan car options or confirm what they were paying for.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="section-heading">
+        <p class="kicker">02 - Critique and analysis</p>
+        <h2>We compared the original experience against the user goal.</h2>
+      </div>
+
+      <div class="comparison">
+        <article class="panel">
+          <h3>Before: attention everywhere</h3>
+          <div class="messy-visual" aria-label="Abstract visual showing the clutter of the original Ling's Cars experience">
+            <span class="bubble one">Deal!</span>
+            <span class="bubble two">Now!</span>
+            <span class="tag">Lease</span>
+            <span class="tag">Call</span>
+            <span class="tag">Special</span>
+            <div class="messy-line a"></div>
+            <div class="messy-line b"></div>
+            <div class="messy-line c"></div>
+            <div class="messy-cta">Click here</div>
+          </div>
+          <p>
+            The critique showed that the original interface created energy, but it did not guide users through search, comparison, or booking.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h3>After: one task at a time</h3>
+          <div class="clean-visual" aria-label="Simplified visual of the redesigned DriveNow experience">
+            <div class="clean-search">Search by location</div>
+            <div class="clean-card">
+              <img src="https://zmogaka.github.io/DriveNow/images/bf67752caa2bc43080dd3bb3404a6be46a2e1ee6.png" alt="Toyota Camry card">
+              <span>Toyota Camry</span>
+              <strong>$65/day</strong>
+            </div>
+            <div class="clean-card">
+              <img src="https://zmogaka.github.io/DriveNow/images/331bb8dc2a8fc379808626909359086a470045e2.png" alt="Ford Explorer card">
+              <span>Ford Explorer</span>
+              <strong>$55/day</strong>
+            </div>
+          </div>
+          <p>
+            DriveNow uses a calmer structure: location search, card-based comparison, details, then booking.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="case-section" id="process">
+      <div class="section-heading">
+        <p class="kicker">03 - Walk through the process</p>
+        <h2>Our process moved from critique to structure, then from structure to interaction.</h2>
+      </div>
+
+      <div class="timeline">
+        <article>
+          <span>1</span>
+          <h3>Audit the original site</h3>
+          <p>We documented usability issues around navigation, layout, readability, and trust.</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>Define the core flow</h3>
+          <p>We reduced the experience to search, compare, view details, and book.</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>Sketch wireframes</h3>
+          <p>Low-fidelity screens helped us place filters, cards, car details, and checkout sections.</p>
+        </article>
+        <article>
+          <span>4</span>
+          <h3>Build and iterate</h3>
+          <p>We added responsive layouts, clear CTAs, loading feedback, search behavior, filters, and dark mode.</p>
+        </article>
+      </div>
+
+      <div class="wireframes" aria-label="Wireframe illustrations">
+        <article class="wireframe">
+          <div class="wire-title"></div>
+          <div class="wire-search"></div>
+          <div class="wire-grid">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <strong>Homepage wireframe</strong>
+        </article>
+        <article class="wireframe">
+          <div class="wire-layout">
+            <span></span>
+            <span></span>
+          </div>
+          <strong>Results and filters</strong>
+        </article>
+        <article class="wireframe">
+          <div class="wire-detail">
+            <span></span>
+            <span></span>
+          </div>
+          <strong>Details and checkout</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="case-section">
+      <div class="section-heading">
+        <p class="kicker">04 - Design decisions</p>
+        <h2>Each screen was designed around the next decision the user needed to make.</h2>
+      </div>
+      <div class="decision-grid">
+        <article>
+          <h3>Search first</h3>
+          <p>The homepage starts with location because availability is the user's first real question.</p>
+        </article>
+        <article>
+          <h3>Scannable car cards</h3>
+          <p>Consistent images, names, prices, and buttons make comparison faster.</p>
+        </article>
+        <article>
+          <h3>Focused details</h3>
+          <p>The detail page separates specs and price breakdown from browsing.</p>
+        </article>
+        <article>
+          <h3>Confirmation at checkout</h3>
+          <p>The booking page repeats the selected car, dates, insurance, and total cost.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="case-section" id="testing">
+      <div class="section-heading">
+        <p class="kicker">05 - Testing and outcomes</p>
+        <h2>Testing checked whether people could complete the rental path without help.</h2>
+      </div>
+      <div class="testing-grid">
+        <article>
+          <h3>What we tested</h3>
+          <p>Five classmates were asked to find a car in Atlanta, compare two cars, view the total price, and begin booking.</p>
+        </article>
+        <article>
+          <h3>What we heard</h3>
+          <p>Users understood the new card layout, but some wanted stronger feedback after search and clearer checkout labels.</p>
+        </article>
+        <article>
+          <h3>What changed</h3>
+          <p>We added loading states, improved labels, made prices more visible, and kept navigation consistent across pages.</p>
+        </article>
+      </div>
+
+      <div class="findings-table" aria-label="Testing findings and design responses">
+        <div class="table-row table-head">
+          <span>Finding</span>
+          <span>Design response</span>
+        </div>
+        <div class="table-row">
+          <span>Users hesitated after entering a location.</span>
+          <span>Added loading feedback and clearer result context.</span>
+        </div>
+        <div class="table-row">
+          <span>Users wanted price visibility before opening details.</span>
+          <span>Kept daily rates visible on each car card.</span>
+        </div>
+        <div class="table-row">
+          <span>Users looked for confirmation before checkout.</span>
+          <span>Added a reservation summary with car, dates, insurance, and total.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-section" id="final">
+      <div class="section-heading">
+        <p class="kicker">06 - Final product</p>
+        <h2>The final prototype creates a clearer path from browsing to booking.</h2>
+      </div>
+      <div class="final-grid">
+        <article>
+          <img src="https://zmogaka.github.io/DriveNow/images/3acf2c99f99354d7e898cce7eb17a19293761b6e.png" alt="Toyota Supra in final DriveNow site">
+          <h3>Browse</h3>
+          <p>Users start with a location search and featured cars.</p>
+        </article>
+        <article>
+          <img src="https://zmogaka.github.io/DriveNow/images/949071b429e9a21ffe97f024915ea145618aae77.png" alt="Tesla Model 3 in final DriveNow site">
+          <h3>Compare</h3>
+          <p>Results, filters, and prices help users narrow their choice.</p>
+        </article>
+        <article>
+          <img src="https://zmogaka.github.io/DriveNow/images/331bb8dc2a8fc379808626909359086a470045e2.png" alt="Ford Explorer in final DriveNow site">
+          <h3>Book</h3>
+          <p>The booking page confirms details before the final action.</p>
+        </article>
+      </div>
+      <div class="outcome">
+        <p>
+          The finished DriveNow prototype includes a responsive homepage, results page, car details page, booking page, dark mode, loading states, and a clearer information hierarchy than the original experience.
+        </p>
+        <a class="primary-button" href="https://zmogaka.github.io/DriveNow/" target="_blank" rel="noopener">Open the live project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Portfolio case study by Dylan Afrifa-Akwamoah</p>
+  </footer>
+</body>
+</html>
